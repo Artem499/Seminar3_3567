@@ -14,7 +14,7 @@ class MathGeometry
         public double y;
         public double z;
     }
-// Создаю класс Program
+// Создаю класс Programm
 class Programm
 
     {
