@@ -23,6 +23,9 @@ class Programm
             MathGeometry point = new MathGeometry();
             Console.Clear();
 
+            Console.WriteLine("Консольная программа принимает на вход координаты двух точек");
+            Console.WriteLine("и находит расстояние между ними в 3D пространстве.");
+
             Console.WriteLine("\nEnter the coordinats X, Y, Z :");
             Console.Write("\n\tX : ");
             point.x = Convert.ToInt32(Console.ReadLine());
@@ -32,8 +35,6 @@ class Programm
             point.z = Convert.ToInt32(Console.ReadLine());
 
             MathGeometry point1 = new MathGeometry();
-
-// Math.Pow - возведение в степень (аргумент, степень возведения)
 
             Console.WriteLine("\nEnter the coordinats X1, Y1, Z1 :");
             Console.Write("\n\tX1 : ");
